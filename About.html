@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>swiggy</title>
+    <link rel="icon" href="icon.webp">
+</head>
+<style>
+    body {
+        text-align: center;
+    }
+
+    .intro {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 7px;
+
+    }
+
+    .container {
+        width: 230px;
+        padding: 10px;
+        border: 2px solid grey;
+        border-radius: 10px;
+
+    }
+
+    .container img {
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 10px;
+        box-shadow: 0px 4px 10px beige;
+    }
+
+    .container:hover {
+        transform: translateY(-10px) scale(1.05);
+        box-shadow: 0px 5px 10px brown;
+
+    }
+    .link_img img{
+        width: 20px;
+        height: 20px;
+        
+        
+    }
+    .link_img img:hover{
+            transform: scale(1.2) rotate(5deg);
+
+    }
+</style>
+
+<body>
+
+    <h1>meet our team</h1>
+    <div class="intro ">
+
+        <div class="container">
+            <img src="chris.webp" alt="member">
+            <h2>Chris Hemsworth</h2>
+            <p>Frontend Developer</p>
+            <p>Builds UI using HTML, CSS, JS</p>
+             <a href="https://www.instagram.com/chrishemsworth/" class="link_img"><img src="instagram.jpeg"></a>
+               <a href="https://x.com/chrishemsworth" class="link_img"><img src="twitter.jpeg"></a>
+
+        </div>
+        <div class="container">
+            <img src="steve rogers.webp" alt="member">
+            <h2>Steve rogers</h2>
+            <p>Backend Developer</p>
+            <p>Handles server and database</p>
+            <a href="https://www.instagram.com/marvel/" class="link_img"><img src="instagram.jpeg"></a>
+            <a href="https://x.com/official_capn"  class="link_img"><img src="twitter.jpeg"> </a>
+            
+        </div>
+        <div class="container">
+            <img src="tony.webp" alt="member">
+            <h2>Tony</h2>
+            <p>UI/UX Designer</p>
+            <p>Designs user-friendly layouts</p>
+            <a href="https://www.instagram.com/robertdowneyjr/" class="link_img"><img src="instagram.jpeg"></a>
+            <a href="https://x.com/?q=Tony+Stark&f=users&ct=google-x-login" class="link_img"><img src="twitter.jpeg"></a>
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>
